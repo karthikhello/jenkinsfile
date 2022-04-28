@@ -1,4 +1,4 @@
-@Library('shared-lib@main') -
+@Library('jen-file@main') -
 node 
 {
    myfirstcode("karthikkumar")
