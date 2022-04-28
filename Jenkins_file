@@ -1,4 +1,4 @@
-@Library('Jenkins_file@main') _
+@Library('Jenkinsfile@main') _
 node 
 {
    myfirstcode("karthikkumar")
