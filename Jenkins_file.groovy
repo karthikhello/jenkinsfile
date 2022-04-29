@@ -1,4 +1,11 @@
-// Jenkinsfile
 @Library('jenkinsfile@main') _
-welcomeJob ‘lambdatest’
-  
+pipeline{
+  agent { label "linux" }
+  stages{
+    stage('Example'){
+      steps {
+        helloworld()
+      }
+    }
+  }
+} 
