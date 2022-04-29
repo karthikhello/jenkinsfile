@@ -1,2 +1,2 @@
-@Library('Jenkinsfile'@main') _
+@Library('Jenkinsfile@main') _
 myfirstcode("karthikkumar")
