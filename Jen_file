@@ -1,4 +1,4 @@
-@Library('jenkinsfile@main') _
+@Library('shared-library@main') _
 pipeline{
   agent { label "linux" }
   stages{
