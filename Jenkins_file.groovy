@@ -1,4 +1,4 @@
 // Jenkinsfile
-@Library('first-shared-lib') _
+@Library('jenkinsfile@main') _
 welcomeJob ‘lambdatest’
   
