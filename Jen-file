@@ -1,11 +1,5 @@
-@Library("shared-library@master") _
-pipeline{
-  agent { label "linux" }
-  stages{
-    stage('Example'){
-      steps {
-        helloWorld()
-      }
-    }
-  }
-} 
+@Library('shared-library@master') _
+node
+{
+     myfirstcode("karthikkumar")
+ }
