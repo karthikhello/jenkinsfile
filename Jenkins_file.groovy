@@ -1,6 +1,4 @@
-@Library('Jenkinsfile@main') _
-node
-{
-  myfirstcode("karthikkumar")
-}  
+// Jenkinsfile
+@Library('first-shared-lib') _
+welcomeJob ‘lambdatest’
   
