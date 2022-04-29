@@ -1,5 +1,2 @@
-@Library('Jenkinsfile') _
-node 
-{
-   myfirstcode("karthikkumar")
-}
+@Library('Jenkinsfile'@main') _
+myfirstcode("karthikkumar")
