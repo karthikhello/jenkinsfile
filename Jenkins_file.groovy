@@ -1,2 +1,6 @@
 @Library('Jenkinsfile@main') _
-myfirstcode("karthikkumar")
+node
+{
+  myfirstcode("karthikkumar")
+}  
+  
