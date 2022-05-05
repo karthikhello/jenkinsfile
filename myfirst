@@ -1,4 +1,7 @@
 @Library('shared-library')
-node{
+node
+{
+stage('demo'){
   myfirstcode("karthikkumar")
+  }
 }
