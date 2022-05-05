@@ -1,5 +1,12 @@
 @Library('shared-library') _
-node
-{
-     myfirstcode("karthikkumar")
- }
+
+pipeline{
+    agent any
+    stages{
+        stage('Demo'){
+            steps{
+                welcome("karthikkumar")
+            }
+        }
+    }
+}
